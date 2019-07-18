@@ -1,0 +1,80 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+header {
+	position: absolute;
+	background-color: black;
+}
+header h1 {
+	position: relative;
+	top: 20px;
+	padding-left: 30px;
+	padding-right: 1150px;
+	color: white;
+	background-color: black;
+}
+#nav_id {
+	position: absolute;
+	left: 75%;
+	top:10px;
+	background-color: black;
+}
+#nav_id li {
+	display: inline-block;
+	-webkit-box-orient: horizontal;
+	position: relative;
+	padding-top: 20px;
+	background-color: black;
+}
+nav ul li a {
+	background-color: black;
+	font-size: 25px;
+	padding:20px;
+	text-decoration: none;
+	color: white;
+}
+nav ul li:hover a {
+	color: blue;
+	background-color: white;
+}
+section img {
+	width: 100%;
+	height: 630px;
+}
+#article1 {
+	display: -webkit-box;
+	-webkit-box-shadow: rgb(110,110,110);
+	position: absolute;
+	top: 150px;
+	left:100px;
+	background-color: black;
+	color: white;
+	height: 150px;
+	width: 300px;
+	border:1px solid blue;
+	-webkit-box-shadow: rgb(110,110,110) -10px 10px 5px;
+	padding: 120px;
+	font-size: 30px;
+}
+#article2 {
+	display: -webkit-box;
+	border:1px solid blue;
+	-webkit-box-shadow: rgb(110,110,110) -10px 10px 5px;
+	position: absolute;
+	top: 150px;
+	left: 700px;
+	height: 310px;
+	width: 500px;
+	background-color: black;
+	color: white;
+	padding: 40px;
+	font-size: 25px;
+}
+article p {
+	position: relative;
+	width: 90%;
+	font-size: 25px;
+	left: 80px;
+	top: 30px;
+}
